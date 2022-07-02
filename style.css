@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Oswald:wght@500&family=PT+Sans+Narrow&family=Redressed&family=Roboto+Condensed:wght@300&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Ballet:opsz@16..72&family=Oswald:wght@500&family=PT+Sans+Narrow&family=Redressed&family=Roboto+Condensed:wght@300&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&family=Ballet:opsz@16..72&family=Oswald:wght@500&family=PT+Sans+Narrow&family=Redressed&family=Roboto+Condensed:wght@300&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&family=Ballet:opsz@16..72&family=Monoton&family=Oswald:wght@500&family=PT+Sans+Narrow&family=Redressed&family=Roboto+Condensed:wght@300&family=Stick+No+Bills:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+     background-color: black;
+    color: white;
+    /* width: 434px; */
+    height: 176vh;
+    transition: transform 0.3s ease-in;
+font-family: 'Stick No Bills', sans-serif;
+
+}
+.sidebar nav{
+    padding:35px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 140px 5px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-color: white;
+width: 400vh;
+
+}
+.nav ul{
+  bottom: 0px;
+}
+.container{
+    display: flex;
+}
+.info-container{
+    /* background-color: rosybrown; */
+    height:150vh ;
+    width: 150vh;
+    margin: 142px auto;
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    margin: 223px 99px;
+    flex-direction: column;
+    padding: 111px 42px;
+}
+.hello{
+    font-size: 78px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.name{
+font-size: 44px;
+font-family: 'Stick No Bills', sans-serif;
+}
+.about{
+font-size: 40px;
+font-family: 'Stick No Bills', sans-serif;
+}
+.moreabout{
+font-size: 20px;
+font-family: 'Stick No Bills', sans-serif;
+}
+.buttons button{
+    margin: auto;
+    background-color:#3BB9FF;
+    /* #ADD8E6 */
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.buttons button:hover{
+color: white;
+background-color: black;
+}
+
+.devpic img{
+    height: 41vh;
+    padding: 1000px 91px;
+    justify-items: center;
+    
+    
+}
+/* .devpic img:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px) ;
+} */
+
+.buttons{
+    margin-top: 34px;
+}
+.contactform h1{
+    font-family: 'Stick No Bills', sans-serif;
+    padding-top: 9px;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.contactform{
+    font-family: 'Stick No Bills', sans-serif;
+    text-align:center;
+    align-items: center;
+    border: 5px solid black ;
+    border-radius: 4px;
+    padding-top: 23px;
+    margin: 214px 289px ;
+    padding: 83px 226px;
+}
+.contactform form{
+    margin: 2px 39px;
+}
+.contactform div{
+    
+    flex-direction: column;
+    font-size: 20px;
+    /* padding: 5px 0px; */
+    padding: 22px 10px;
+    margin: 13px 10px;
+}
+.contactform button{
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    padding: 14px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+.contactform button:hover{
+    background-color: white;
+    color: rgb(212, 179, 212);
+    cursor: pointer;    
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 40px;
+    
+}
+.sidebargo{
+    transform: translate(-140px,0px);
+    position: absolute;
+}
+/* .sidebar h1{
+    font-size: 70px;
+    height: 23vh;
+    font-family: 'Monoton', cursive;';
+
+} */
+
+/* @media(max-width:1770px){
+
+ *{
+    background-color: blue ;
+}
+} */
